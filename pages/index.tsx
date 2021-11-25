@@ -5,8 +5,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Htag tag="h1">Text</Htag>
-      <Button appearance="primary" className="Natalinka">Button</Button>
-      <Button appearance="ghost">Button</Button>
+      <Button appearance="primary" arrow="right">Button</Button>
+      <Button appearance="ghost" arrow="down">Button</Button>
     </>
   );
 };
