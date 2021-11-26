@@ -2,6 +2,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 	color: var(--black);
 	background: #E5E5E5;
 
@@ -23,7 +24,7 @@ a {
 	--gray-light: #EBEBEB;
 	--white: #FFF;
 	--primary: #7653FC;
-	--primary-hover: #6344df;
+	--primary-hover: #6344DF;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;
