@@ -38,8 +38,6 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({ params }: Ge
 		};
 	}
 
-
-
 	const { data: menu } = await axios.post<MenuItem[]>(process.env.NEXT_PUBLIC_DOMAIN + "/api/top-page/find", {
 		firstCategory
 	});
