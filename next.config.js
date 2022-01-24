@@ -14,7 +14,7 @@ module.exports = {
 						name: 'preset-default',
 						params: {
 							override: {
-								removeVyewBox: false
+								removeViewBox: false
 							}
 						}
 					}],
